@@ -9,7 +9,7 @@ from google import genai
 from google.genai import types
 
 # Конфигурация GEMINI
-GEMINI_API_KEY = "AIzaSyDGUBPORZ4LCHT68HuhIzD3OUh36V3vAZE"  
+GEMINI_API_KEY = "GEMINI_API_KEY"  
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Подгон по оси Y
