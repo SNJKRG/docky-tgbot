@@ -1,0 +1,11 @@
+pdf2image
+pytesseract
+Pillow
+reportlab
+PyPDF2
+requests
+fitz  
+datetime
+google-genai
+python-telegram-bot
+nest_asyncio
