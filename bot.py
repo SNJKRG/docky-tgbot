@@ -101,7 +101,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     return ConversationHandler.END
 
 async def main():
-    application = ApplicationBuilder().token("7333748285:AAEjtDFXdcA1oNitLD0MYg2dcbw4x_-7tjQ").build()
+    application = ApplicationBuilder().token("TELEGRAM_BOT_API").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("doc", start_doc)],
