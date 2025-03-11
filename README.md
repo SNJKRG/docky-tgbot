@@ -1,7 +1,7 @@
 # docky-tgbot
 
 ### Prerequisites
-Install dependencies:
+Install dependencies from requirements.txt:
 ```sh
 $ pip install
 ```
